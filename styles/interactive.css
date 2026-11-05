@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.menu {
+    background-color: #333;
+    padding: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+.btn-grow {
+    background-color: royalblue;
+    transition: transform 0.3s ease-out;
+}
+
+.btn-grow:hover {
+    transform: scale(1.05);
+}
+
+
+.btn-darken {
+    background-color: #555;
+    transition: background-color 0.4s linear;
+}
+
+.btn-darken:hover {
+    background-color: #222;
+}
+
+
+a:focus {
+    outline: 2px solid orange;
+    outline-offset: 3px;
+}
+
+footer {
+    margin-top: 50px;
+}
